@@ -7,14 +7,14 @@
 
 body {
     font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
     background: #e6e6e6;
 }
 
 /*Area do Cabeçalho*/
 
 #area-cabecalho {
-    background: #f7b600;
+    background: #6495ED;
     padding: 15px;
     text-align: center;
 }
@@ -30,8 +30,9 @@ body {
 }
 
 h1 {
-    color: #4e4e4e;
-    font-size: 2.5em;
+    color: #FFFAFA;
+    font-size: 3.0em;
+    font-family: 'Single Day', cursive;
 }
 
 .branco {
@@ -43,13 +44,22 @@ a {
 }
 
 a:link, a:visited {
+    color: #4169E1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
     color: #FFF;
     padding: 8px 12px;
 }
 
-a:hover {
-    color: #f7b600;
+#area-cabecalho a:hover {
+    color: #4169E1;
     background: white;
+    text-decoration: none;
 }
 
 /* AREA DE POSTAGENS DE NOTICIAS*/
@@ -61,14 +71,57 @@ a:hover {
 
 #area-postagens {
     width: 660px;
-    background: #f7b600;
     float: left;
 }
 
+h2 {
+    color: #4169E1;
+}
+
+
+.datapost {
+    font-size: 0.8em;
+    border-bottom: 1px solid #4169E1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+/*Conteúdo Lateral do Site*/
+
 #area-lateral {
     width: 240px;
-    background-color: aqua;
     float: right;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #565656;
+    background: #87CEEB;
+    padding: 5px;
+}
+
+.post-left {
+    font-size: 0.8em;
+    padding: 5px;
+   /* border-bottom: 1px dotted #f7b600;*/
+}
+
+.link {
+    font-size: 1.0em;
+    padding: 5px;
 }
 
 /*RODAPE*/
