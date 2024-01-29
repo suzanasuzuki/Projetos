@@ -1,7 +1,7 @@
 
 # <h1 align="center">Projetos - Curso Udemy</h1>
 
-<img src="https://img.shields.io/static/v1?label=<DESENVOLVIMENTO WEB>&message=<CSSY>&color=<COLOR>&style=<STYLE>&logo=<LOGO>">
+<img src="https://img.shields.io/static/v1?label=<DESENVOLVIMENTO WEB>&message=<CSS>&color=<COLOR>&style=<STYLE>&logo=<LOGO>">
 
 ## Descrição do Conteúdo:
 <p> Todos os projetos incluídos serão do curso de Desenvolvimento Web, da plataforma de cursos da Udemy.
